@@ -1,0 +1,10 @@
+<?php
+session_start();
+unset($_SESSION["id"]);
+unset($_SESSION["lv1"]);
+unset($_SESSION["lv2"]);
+unset($_SESSION["lv3"]);
+unset($_SESSION["lv4"]);
+unset($_SESSION["lv5"]);
+header("location:/");
+?>
